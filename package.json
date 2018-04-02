@@ -1,0 +1,52 @@
+{
+  "name": "e-magpie-bot",
+  "version": "1.0.0",
+  "description": "Chat bot engine",
+  "main": "index.js",
+  "scripts": {
+    "fuse": "node fuse/automation.js",
+    "start": "npm run fuse dev",
+    "test": "node ./node_modules/mocha/bin/mocha --opts ./mocha.opts --ui bdd --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Pencroff/ts-node-starter.git"
+  },
+  "keywords": [
+    "ts starter",
+    "typescript starter",
+    "node"
+  ],
+  "author": "Sergey Daniloff (@Pencroff)",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/Pencroff/ts-node-starter/blob/master/README.md",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.22.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/lodash": "^4.14.106",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^8.9.4",
+    "@types/nodegit": "^0.18.5",
+    "@types/sinon": "^2.3.7",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "dirty-chai": "^2.0.1",
+    "fuse-box": "^3.1.3",
+    "fuse-box-typechecker": "^2.7.1",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^4.0.1",
+    "mocha-param": "^2.0.0",
+    "nodegit": "^0.21.1",
+    "nyc": "^11.6.0",
+    "sinon": "^4.4.6",
+    "ts-node": "^3.3.0",
+    "tsconfig-paths": "^3.1.3",
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "typescript": "2.8.x"
+  }
+}

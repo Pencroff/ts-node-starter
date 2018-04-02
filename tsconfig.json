@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+	"compilerOptions": {
+    "outDir": "dist/messages",
+		"module": "commonjs",
+		"target": "es6",
+		"moduleResolution": "Node",
+		"allowJs": false,
+		"noImplicitAny": false,
+		"removeComments": false,
+		"preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node", "mocha"],
+		"typeRoots": ["node_modules/@types", "types"],
+		"baseUrl": "./app",
+    "paths": {
+      "@root/*": ["src/*"]
+    }
+	},
+  "include": [
+    "./app/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
